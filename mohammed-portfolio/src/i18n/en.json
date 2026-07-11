@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "title": "Mohammed Ahmed | Computer Engineer & IT Support Engineer",
+    "description": "Portfolio of Mohammed Ahmed — Computer Engineer and IT Support Engineer specializing in networking, systems administration and cybersecurity."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "lab": "Lab",
+    "certificates": "Certificates",
+    "contact": "Contact",
+    "resume": "Resume",
+    "skipToContent": "Skip to content"
+  },
+  "common": {
+    "viewProject": "View project",
+    "details": "Details",
+    "showLess": "Show less",
+    "liveDemo": "Live demo",
+    "sourceCode": "Source code",
+    "viewAll": "View all",
+    "viewAllProjects": "View all projects",
+    "viewAllSkills": "View all skills",
+    "viewAllCertificates": "View all certificates",
+    "verify": "Verify",
+    "downloadCv": "Download CV",
+    "contactMe": "Contact me",
+    "viewProjects": "View projects",
+    "sendMessage": "Send message",
+    "backToTop": "Back to top",
+    "readMore": "Read more",
+    "close": "Close",
+    "toggleTheme": "Toggle color theme",
+    "toggleLanguage": "Switch language",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "all": "All",
+    "currentlyWorking": "Currently working",
+    "years": "years"
+  },
+  "hero": {
+    "eyebrow": "IT Support Engineer",
+    "greeting": "Hello, I'm",
+    "name": "Mohammed Ahmed",
+    "rolePrefix": "I build reliable IT infrastructure as a",
+    "roles": ["Computer Engineer", "IT Support Engineer", "Networking Specialist", "Cybersecurity Enthusiast", "Backend Developer"],
+    "description": "Building reliable IT infrastructure and modern software solutions — from enterprise networks and Active Directory environments to full-stack web applications.",
+    "ctaPrimary": "View projects",
+    "ctaSecondary": "Contact me",
+    "scrollHint": "Scroll to explore",
+    "statusBadge": {
+      "label": "Currently working",
+      "role": "IT Support Engineer",
+      "company": "NAQUA Company"
+    }
+  },
+  "stats": {
+    "experience": "Years experience",
+    "projects": "Projects completed",
+    "certificates": "Certificates earned",
+    "technologies": "Technologies mastered"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "The engineer behind the infrastructure",
+    "bio": "I'm a Computer Engineer specializing in IT support and infrastructure. I enjoy solving complex problems, automating repetitive tasks, and building systems that stay reliable under pressure — from enterprise networks and Active Directory domains to full-stack web applications.",
+    "infoName": "Name",
+    "infoLocation": "Location",
+    "infoExperience": "Experience",
+    "infoEmail": "Email",
+    "infoLocationValue": "Saudi Arabia",
+    "infoExperienceValue": "2+ years",
+    "journeyTitle": "My journey",
+    "journey": [
+      {
+        "year": "2022",
+        "title": "Graduated",
+        "description": "Bachelor's degree in Computer Engineering, focused on networks, systems and software development."
+      },
+      {
+        "year": "2023",
+        "title": "IT Internship",
+        "description": "Hands-on experience in IT support, system administration and enterprise networking at a university networking department."
+      },
+      {
+        "year": "2024 — Present",
+        "title": "IT Support Engineer",
+        "description": "Working at NAQUA Company as an IT Support Engineer, maintaining infrastructure, resolving incidents and improving system reliability."
+      },
+      {
+        "year": "Next",
+        "title": "Future goal",
+        "description": "Growing into a Cloud & Cybersecurity Engineer role — building secure, scalable and resilient solutions."
+      }
+    ]
+  },
+  "skillsSection": {
+    "eyebrow": "Capabilities",
+    "title": "Skills & technologies",
+    "subtitle": "A practical toolkit built across networking, systems administration, cybersecurity and full-stack development.",
+    "categories": {
+      "networking": "Networking",
+      "systems": "Systems",
+      "programming": "Programming",
+      "cybersecurity": "Cybersecurity"
+    }
+  },
+  "experienceSection": {
+    "eyebrow": "Career path",
+    "title": "Experience",
+    "subtitle": "A steady path from hands-on networking labs to production IT support.",
+    "present": "Present",
+    "items": [
+      {
+        "role": "IT Support Engineer",
+        "company": "NAQUA Company",
+        "period": "2024 — Present",
+        "type": "Full-time",
+        "points": [
+          "Deliver first- and second-line IT support across networking, systems and end-user infrastructure.",
+          "Administer Active Directory, Microsoft 365 and Windows Server environments for the organization.",
+          "Maintain and monitor internal network infrastructure, reducing recurring downtime through proactive fixes.",
+          "Document processes and train staff on IT best practices and security hygiene."
+        ]
+      },
+      {
+        "role": "IT Support Intern",
+        "company": "University Networking Department",
+        "period": "2023",
+        "type": "Internship",
+        "points": [
+          "Assisted in the design and maintenance of the university's core networking infrastructure.",
+          "Configured and troubleshot switches, routers and DHCP/DNS services in lab environments.",
+          "Supported staff and students with hardware, software and connectivity issues.",
+          "Built internal automation scripts to speed up recurring administrative tasks."
+        ]
+      },
+      {
+        "role": "Bachelor of Computer Engineering",
+        "company": "University",
+        "period": "2019 — 2023",
+        "type": "Education",
+        "points": [
+          "Graduated with a focus on computer networks, systems architecture and software engineering.",
+          "Completed a graduation project combining embedded systems with AI-driven interaction.",
+          "Active member of the university's networking and technology student community."
+        ]
+      }
+    ],
+    "achievementsTitle": "Professional achievements",
+    "achievements": [
+      "Reduced average IT ticket resolution time through structured triage and documentation.",
+      "Designed and deployed a full Active Directory lab environment used for internal training.",
+      "Built internal automation tooling that removed hours of manual, repetitive work every week.",
+      "Earned 8 professional certifications across networking, cloud and IT service management."
+    ]
+  },
+  "labSection": {
+    "eyebrow": "Hands-on practice",
+    "title": "IT Lab & practical work",
+    "subtitle": "Infrastructure I've personally deployed, broken, and fixed again in lab and production environments.",
+    "projectsLabel": "projects"
+  },
+  "projectsSection": {
+    "eyebrow": "Selected work",
+    "title": "Featured projects",
+    "subtitle": "A mix of infrastructure labs, automation tools and full-stack applications.",
+    "filters": {
+      "all": "All",
+      "infrastructure": "Infrastructure",
+      "automation": "Automation",
+      "web": "Web Development",
+      "other": "Other"
+    },
+    "noResults": "No projects match this filter yet.",
+    "graduationBadge": "Graduation project",
+    "items": {
+      "windows-server-lab": {
+        "title": "Windows Server Lab",
+        "description": "A complete Windows Server 2022 environment with Active Directory, DNS, DHCP and Group Policy management, built to mirror a real enterprise domain."
+      },
+      "active-directory-lab": {
+        "title": "Active Directory Lab",
+        "description": "Designed and implemented a multi-tier Active Directory environment following security and organizational-unit best practices."
+      },
+      "network-monitoring": {
+        "title": "Network Monitoring Dashboard",
+        "description": "A real-time monitoring setup for network devices and servers, with alerting for downtime, latency spikes and abnormal traffic."
+      },
+      "tiktok-downloader-bot": {
+        "title": "TikTok Downloader Bot",
+        "description": "A Python automation bot that fetches and downloads TikTok videos without watermarks via a simple chat interface."
+      },
+      "ai-hologram-project": {
+        "title": "AI Hologram Teacher",
+        "description": "A Raspberry Pi hologram using the Pepper's Ghost technique, paired with AI-driven voice interaction — my graduation project.",
+        "isGraduation": true
+      },
+      "laravel-dashboard": {
+        "title": "Laravel Portfolio Dashboard",
+        "description": "A full-stack admin dashboard for managing portfolio content — projects, certificates and messages — built with Laravel and MySQL."
+      }
+    }
+  },
+  "certificatesSection": {
+    "eyebrow": "Verified credentials",
+    "title": "Certificates",
+    "subtitle": "Professional certifications across networking, cloud platforms and IT service management.",
+    "filters": {
+      "all": "All",
+      "cisco": "Cisco",
+      "microsoft": "Microsoft",
+      "itil": "ITIL",
+      "others": "Others"
+    },
+    "items": {
+      "ccna": {
+        "title": "CCNA",
+        "issuer": "Cisco",
+        "description": "Cisco Certified Network Associate — routing, switching and network fundamentals."
+      },
+      "ms365": {
+        "title": "Microsoft 365 Certified",
+        "issuer": "Microsoft",
+        "description": "Modern Desktop Administrator Associate."
+      },
+      "az900": {
+        "title": "AZ-900",
+        "issuer": "Microsoft",
+        "description": "Microsoft Azure Fundamentals."
+      },
+      "itil4": {
+        "title": "ITIL 4 Foundation",
+        "issuer": "PeopleCert",
+        "description": "IT service management foundations and best practices."
+      },
+      "comptia-a": {
+        "title": "CompTIA A+",
+        "issuer": "CompTIA",
+        "description": "Core hardware, software and troubleshooting certification."
+      },
+      "google-it": {
+        "title": "Google IT Support",
+        "issuer": "Google",
+        "description": "Professional Certificate in IT support fundamentals."
+      }
+    }
+  },
+  "contactSection": {
+    "eyebrow": "Get in touch",
+    "title": "Let's build something reliable",
+    "subtitle": "Have a project in mind, or want to talk infrastructure, security or automation? I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or question...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Message sent — thank you! I'll get back to you soon.",
+      "mailtoFallback": "Your email app should now open with your message ready to send.",
+      "error": "Something went wrong. Please try again, or email me directly.",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "emailRequired": "Please enter your email address.",
+        "emailInvalid": "Please enter a valid email address.",
+        "subjectRequired": "Please add a subject.",
+        "messageRequired": "Please write a message.",
+        "messageMinLength": "Your message should be at least 10 characters."
+      }
+    },
+    "infoTitle": "Contact information",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Saudi Arabia",
+    "social": "Find me online"
+  },
+  "footer": {
+    "tagline": "Computer Engineer & IT Support Engineer building reliable infrastructure and modern software.",
+    "quickLinks": "Quick links",
+    "getInTouch": "Get in touch",
+    "rights": "All rights reserved.",
+    "madeWith": "Designed & built by Mohammed Ahmed"
+  }
+}

@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html[dir='rtl'] body {
+    font-family: 'IBM Plex Sans Arabic', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  /* Base (unprefixed) styles represent light mode; `dark:` overrides are
+     dark mode, matching Tailwind's `darkMode: 'class'` convention used
+     throughout the component library. */
+  body {
+    @apply bg-surface-light text-ink-dark dark:bg-surface-dark dark:text-ink-light font-body antialiased transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  ::selection {
+    @apply bg-primary/40 text-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6c63ff, #8b5cf6);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  /* Visible, accessible focus ring everywhere */
+  :focus-visible {
+    outline: 2px solid #8b5cf6;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  section[id] {
+    scroll-margin-top: 88px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply px-5 sm:px-8 lg:px-12;
+  }
+
+  .section-py {
+    @apply py-24 sm:py-28 lg:py-32;
+  }
+
+  .glass-panel {
+    @apply relative rounded-3xl border border-ink-dark/10 bg-white/70 shadow-card-light backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.035] dark:shadow-none;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-aurora;
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  .skip-link {
+    @apply absolute -top-16 left-4 z-[100] rounded-lg bg-primary px-4 py-2 text-white transition-all focus:top-4;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: theme('backgroundImage.grid-light');
+    background-size: theme('backgroundSize.grid-cell');
+  }
+  .dark .bg-grid {
+    background-image: theme('backgroundImage.grid-dark');
+  }
+
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  }
+}
