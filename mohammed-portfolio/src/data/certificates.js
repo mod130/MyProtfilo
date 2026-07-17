@@ -6,35 +6,30 @@ import { Network, Monitor, Cloud, ClipboardCheck, Cpu, GraduationCap } from 'luc
  * real public verification link for each credential.
  */
 export const certificates = [
-  //{
-   /* id: 'ccna',
+  {
+   /*id: 'ccna',
     category: 'cisco',
     date: '2023',
     icon: Network,
-    verifyUrl: 'https://www.credly.com/users/mohammedahmed-dev',
-  },*/
-  {
-    id: 'ms365',
-    category: 'microsoft',
-    date: '2024',
-    icon: Monitor,
-    verifyUrl: 'https://learn.microsoft.com/en-us/users/mohammedahmed-dev/credentials',
+   verifyUrl: 'https://www.credly.com/users/mohammedahmed-dev',
   },
   {
-    id: 'az900',
+  
+  {
+   id: 'az900',
     category: 'microsoft',
     date: '2024',
-    icon: Cloud,
+   icon: Cloud,
     verifyUrl: 'https://learn.microsoft.com/en-us/users/mohammedahmed-dev/credentials',
   },
-  {
+  {*/
     id: 'itil4',
     category: 'itil',
     date: '2023',
     icon: ClipboardCheck,
     verifyUrl: 'https://www.peoplecert.org/verify-certificate',
   },
-  {
+ /* {
     id: 'comptia-a',
     category: 'others',
     date: '2022',
@@ -47,7 +42,9 @@ export const certificates = [
     date: '2022',
     icon: GraduationCap,
     verifyUrl: 'https://www.credly.com/users/mohammedahmed-dev',
-  },
+  }*/
+   
+  
 ];
 
 export const certificateFilters = ['all', 'cisco', 'microsoft', 'itil', 'others'];

@@ -15,7 +15,7 @@ export const projects = [
     icon: Server,
     tech: ['Windows Server 2022', 'Active Directory', 'DNS', 'DHCP', 'GPO'],
     links: {
-      github: 'https://github.com/mohammedahmed-dev/windows-server-lab',
+      github: '',
     },
     art: { variant: 'circuit', from: '#6C63FF', to: '#22D3EE' },
     featured: true,
@@ -26,12 +26,12 @@ export const projects = [
     icon: Network,
     tech: ['Active Directory', 'Group Policy', 'DNS', 'Security Hardening'],
     links: {
-      github: 'https://github.com/mohammedahmed-dev/active-directory-lab',
+      github: '',
     },
     art: { variant: 'nodes', from: '#8B5CF6', to: '#6C63FF' },
     featured: true,
   },
-  {
+  /*{
     id: 'network-monitoring',
     category: 'infrastructure',
     icon: Activity,
@@ -42,7 +42,7 @@ export const projects = [
     art: { variant: 'waves', from: '#22D3EE', to: '#6C63FF' },
     featured: false,
   },
-  {
+  /*{
     id: 'tiktok-downloader-bot',
     category: 'automation',
     icon: Bot,
@@ -51,29 +51,30 @@ export const projects = [
       github: 'https://github.com/mohammedahmed-dev/tiktok-downloader-bot',
       demo: 'https://t.me/tiktok_dl_demo_bot',
     },
+  
     art: { variant: 'dots', from: '#8B5CF6', to: '#22D3EE' },
     featured: false,
-  },
+  },*/
   {
     id: 'ai-hologram-project',
     category: 'other',
     icon: Sparkles,
-    tech: ['Raspberry Pi', 'Python', 'AI Voice Interaction', 'Hardware'],
+    tech: ['microcomputer', 'Python', 'AI Voice Interaction'],
     links: {
-      github: 'https://github.com/mohammedahmed-dev/ai-hologram-teacher',
+      github: 'https://github.com/mod130/Graduation-project-faris',
     },
     art: { variant: 'blobs', from: '#6C63FF', to: '#8B5CF6' },
     featured: true,
     isGraduation: true,
   },
   {
-    id: 'laravel-dashboard',
+    id: 'laravel-Task',
     category: 'web',
     icon: LayoutDashboard,
-    tech: ['Laravel', 'PHP', 'MySQL', 'Tailwind CSS'],
+    tech: ['Laravel', 'PHP', 'MySQL', ],
     links: {
-      github: 'https://github.com/mohammedahmed-dev/laravel-portfolio-dashboard',
-      demo: 'https://laravel-dashboard-demo.mohammedahmed.dev',
+      github: 'https://github.com/mod130/TodoTask-laravel',
+      
     },
     art: { variant: 'grid', from: '#22D3EE', to: '#8B5CF6' },
     featured: true,

@@ -22,9 +22,9 @@ export default function Hero() {
   const typedRole = useTypewriter(Array.isArray(roles) ? roles : [roles]);
 
   const stats = [
-    { id: 'experience', target: 2, suffix: '+' },
-    { id: 'projects', target: 12, suffix: '+' },
-    { id: 'certificates', target: 8, suffix: '' },
+    { id: 'experience', target: 1, suffix: '+' },
+    { id: 'projects', target: 4, suffix: '+' },
+    //{ id: 'certificates', target: 0, suffix: '' },
     { id: 'technologies', target: 10, suffix: '+' },
   ];
 

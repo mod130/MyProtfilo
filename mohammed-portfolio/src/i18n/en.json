@@ -45,9 +45,9 @@
     "eyebrow": "IT Support Engineer",
     "greeting": "Hello, I'm",
     "name": "Mohammed Ahmed",
-    "rolePrefix": "I build reliable IT infrastructure as a",
-    "roles": ["Computer Engineer", "IT Support Engineer", "Networking Specialist", "Cybersecurity Enthusiast", "Backend Developer"],
-    "description": "Building reliable IT infrastructure and modern software solutions — from enterprise networks and Active Directory environments to full-stack web applications.",
+    "rolePrefix": "Passionate about ",
+    "roles": ["Computer Engineer", "IT Support Engineer", "Networking Specialist", "SOC analyst ", "Backend Developer"],
+    "description": "Computer Engineer with professional experience in IT support,  networking, SOC analyst",
     "ctaPrimary": "View projects",
     "ctaSecondary": "Contact me",
     "scrollHint": "Scroll to explore",
@@ -72,28 +72,28 @@
     "infoExperience": "Experience",
     "infoEmail": "Email",
     "infoLocationValue": "Saudi Arabia",
-    "infoExperienceValue": "2+ years",
+    "infoExperienceValue": "6 month",
     "journeyTitle": "My journey",
     "journey": [
       {
-        "year": "2022",
+        "year": "2025",
         "title": "Graduated",
         "description": "Bachelor's degree in Computer Engineering, focused on networks, systems and software development."
       },
       {
-        "year": "2023",
+        "year": "2024",
         "title": "IT Internship",
         "description": "Hands-on experience in IT support, system administration and enterprise networking at a university networking department."
       },
       {
-        "year": "2024 — Present",
+        "year": "2026 — Present",
         "title": "IT Support Engineer",
         "description": "Working at NAQUA Company as an IT Support Engineer, maintaining infrastructure, resolving incidents and improving system reliability."
       },
       {
         "year": "Next",
         "title": "Future goal",
-        "description": "Growing into a Cloud & Cybersecurity Engineer role — building secure, scalable and resilient solutions."
+        "description": "Growing into a  Cybersecurity Engineer role — building secure, scalable and resilient solutions."
       }
     ]
   },
@@ -117,7 +117,7 @@
       {
         "role": "IT Support Engineer",
         "company": "NAQUA Company",
-        "period": "2024 — Present",
+        "period": "2026 — Present",
         "type": "Full-time",
         "points": [
           "Deliver first- and second-line IT support across networking, systems and end-user infrastructure.",
@@ -129,7 +129,7 @@
       {
         "role": "IT Support Intern",
         "company": "University Networking Department",
-        "period": "2023",
+        "period": "2024",
         "type": "Internship",
         "points": [
           "Assisted in the design and maintenance of the university's core networking infrastructure.",
@@ -141,7 +141,7 @@
       {
         "role": "Bachelor of Computer Engineering",
         "company": "University",
-        "period": "2019 — 2023",
+        "period": "2020 — 2025",
         "type": "Education",
         "points": [
           "Graduated with a focus on computer networks, systems architecture and software engineering.",
@@ -199,13 +199,13 @@
         "description": "A Raspberry Pi hologram using the Pepper's Ghost technique, paired with AI-driven voice interaction — my graduation project.",
         "isGraduation": true
       },
-      "laravel-dashboard": {
-        "title": "Laravel Portfolio Dashboard",
-        "description": "A full-stack admin dashboard for managing portfolio content — projects, certificates and messages — built with Laravel and MySQL."
+      "laravel-Task": {
+        "title": "laravel-Task",
+        "description": "Developed and maintained backend features using the Laravel framework. Built RESTful APIs, implemented business logic, managed MySQL databases, and optimized application performance. Collaborated with the development team to troubleshoot issues, fix bugs, and deliver new features following MVC architecture and clean coding practices."
       }
     }
   },
-  "certificatesSection": {
+   "certificatesSection": {
     "eyebrow": "Verified credentials",
     "title": "Certificates",
     "subtitle": "Professional certifications across networking, cloud platforms and IT service management.",
@@ -233,7 +233,7 @@
         "description": "Microsoft Azure Fundamentals."
       },
       "itil4": {
-        "title": "ITIL 4 Foundation",
+        "title": "ITIL 5 Foundation",
         "issuer": "PeopleCert",
         "description": "IT service management foundations and best practices."
       },
@@ -242,13 +242,14 @@
         "issuer": "CompTIA",
         "description": "Core hardware, software and troubleshooting certification."
       },
-      "google-it": {
+     "google-it": {
         "title": "Google IT Support",
         "issuer": "Google",
         "description": "Professional Certificate in IT support fundamentals."
       }
     }
   },
+ 
   "contactSection": {
     "eyebrow": "Get in touch",
     "title": "Let's build something reliable",

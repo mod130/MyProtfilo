@@ -27,7 +27,7 @@ export default function About() {
           <Reveal direction="left" className="relative mx-auto w-full max-w-sm">
             <div className="glass-panel overflow-hidden rounded-[2rem] p-3">
               <Avatar
-                src="/profile-about.jpg"
+                src="/profile.jpg"
                 alt={t('hero.name')}
                 initials="MA"
                 className="aspect-[4/5] w-full"
